@@ -1,0 +1,9 @@
+/*
+Update the values you want here. You can have as many email labels as you want. Just make sure that they are inside the array [].
+
+*/
+
+config = {
+    'targetLabelNames': ['newsletters', 'receipts'], // Can just be one label if you want.
+    'oldEmailDefinition': 1 // Number of days that makes an email "old." For example, if this is 2, then the script will mark all selected emails 2 days or older as read.
+}
