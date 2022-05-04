@@ -10,7 +10,7 @@ How to use:
 1. `cp .clasp.template.json .clasp.json`
 1. Fill in the script ID (see below) in .clasp.json from your new Script file.
 1. Fill in the path to your instance of this project in .clasp.json (see below).
-1. `clasp push`
+1. `clasp push` (If prompted, enter y to update the manifest)
 1. Refresh the page on your script project. You should see all the .js files as .gs. Run the main() function. You can set up [a trigger](https://developers.google.com/apps-script/guides/triggers) to have it run every day.
 
 
