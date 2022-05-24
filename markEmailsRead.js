@@ -27,8 +27,8 @@ function main() {
   );
 }
 
-/* f
-indLabels takes an individual label string, then resturns any label or sublabel with that string in the name. 
+/* 
+findLabels takes an individual label string, then resturns any label or sublabel with that string in the name. 
 For example, if you include 'newsletters' in config.targetLabelNames, then it will include both the newsletters label, as well as any sublabels, such as newsletters/local.
 */
 function findLabels(targetLabel) {
